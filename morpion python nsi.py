@@ -40,12 +40,12 @@ def morpion():
         grille[ligne][colonne]="X"
         ClearCmd()
         Affichage(grille)
-        if VerifNul(grille)==True:
-            print("Match NUL personne ne gagne.")
-            break
         win = VerifWin(grille)
         if win == "X":
             print(joueur_1,"a gagné")
+            break
+        if VerifNul(grille)==True:
+            print("Match NUL personne ne gagne.")
             break
         print("\nc'est au tour de",joueur_2,":\n")
         ligne, colonne = Selection(grille)
