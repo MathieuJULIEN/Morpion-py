@@ -1,0 +1,1 @@
+Ce programme est un petit programme d'un morpion en python qui fonctionne pour deux joueur, il est 100% fonctionnel et utilise la table UTF-8 pour faire une belle grille de morpion.
