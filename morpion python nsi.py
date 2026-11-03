@@ -50,6 +50,7 @@ def morpion():
         print("\nc'est au tour de",joueur_2,":\n")
         ligne, colonne = Selection(grille)
         grille[ligne][colonne]="O"
+        ClearCmd()
         Affichage(grille)
         win = VerifWin(grille)
         if win == "O":
